@@ -1,6 +1,9 @@
 /*为什么在写之前还有一点小激动呢？*/
 * {
 	font-family: 'Consolas', 'lucida grande', 'lucida sans unicode', lucida, helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 html,
 body {
@@ -19,8 +22,9 @@ a:hover {
 body > #header {
 	overflow: hidden;
 	width: 100%;
-	height: 200px;
-	padding-top: 80px;
+	/* height: 200px; */
+	/* padding-top: 80px; */
+	padding: 50px 0;
 	color: #efefef;
 	background: #22222c;
 }
@@ -33,11 +37,13 @@ body > #header h1 {
 	text-align: center;
 }
 body > #main {
-	padding: 15px 0;
+	/* padding: 15px 0; */
+	padding: 15px;
 }
 body > #main #content {
 	min-height: 480px;
-	padding: 35px 60px;
+	/* padding: 35px 60px; */
+	padding: 35px;
 	border: 1px solid #cecece;
 	background: #fefefe;
 	-webkit-box-shadow: 0 2px 3px 5px #eee;
@@ -62,10 +68,12 @@ body > #main #content p {
 	text-indent:2em;
 }
 body > #main #content h1 {
-	font-size: 32px;
+	/* font-size: 32px; */
+	font-size: 24px;
 	line-height: 2em;
-	margin: 0 -60px 20px;
-	padding: 0 60px;
+	/* margin: 0 -60px 20px; */
+	/* margin: 0 -35px 20px; */
+	/* padding: 0 60px; */
 	border-bottom: 5px solid #ddd;
 }
 body > #main #content h2 {
@@ -155,7 +163,8 @@ pre code .code-line .line-num {
 	color: #666;
 }
 body > #main #content .img-box {
-	margin: 0 -60px 20px;
+	/* margin: 0 -60px 20px; */
+	margin: 0 -35px 20px;
 	padding: 0;
 }
 body > #main #content .img-box img {
